@@ -1,0 +1,96 @@
+THIS IS JOURNEY OF MY FIRST SELF COMPLETED DATA SCIENCE AND ML PROJECT
+
+topic is : Healthcare no show prediction
+
+
+day 1 : today i understand what problem i choose why it is directly related to real world problem and what i will create
+who will be benefitted from my project if i talk about from the pov of hospital. in short whole problem understanding.
+
+day 2 : today i finalized the project folder structure and this was important because everything should be placed
+like a polished organized way so that i can really understand what its like to start a real project work.
+
+day 3 : today i selected the appropriate dataset for this project renamed it well think about the fact that the colomns
+are likely relavant and placed it inside the raw folder as this is raw dataset which i will process later.
+
+day 4 : today i made my first notebook which tells about the data understanding where i have defined the purpose
+of that notebook and what we will focus on and what overall data does that dataset contains.
+
+day 5 : today i continued to make another markdown cell in data understanding notebook and describes about the overview
+of it what it actually includes and overall conclusion of the dataset which will be pre processed soon.
+
+day 6 : today i loaded the raw dataset succesfully and identified the shape of it and also learn about the importance 
+of file path in loading dataset
+
+day 7 : today i selected and displayed the target variable and also listed all the columns of the dataset using 
+.columns method so it can be observed that what each feature represents in the dataset.
+
+day 8 : today i printed out the first five rows of the whole data set in order to look what it actually looks like and 
+also describes what each column represents to understand that what role they will play during prediction.
+
+day 9 : today i completed coverage of all the columns which is essential for understanding in order to know which column
+would be more influential at the time of prediction.
+
+day 10 : today i seperated the features of the data set into different categories in order to know about the importance
+of columns and what role they will play in prediction.
+
+day 11 : today i made another notrbook of data quality check where my aim is to see if my data set has any noise or not
+and used isnull.sum method for the observation.
+
+day 12 : today i observed the age coloumn in the dataset i also checked that how many values are there where age is 
+less than 0 and more than 100 and noted the result.
+
+day 13 : today i fixed the issue of negative age using a new trick i learned as well as i observed that there is a slight
+issue with the handcap coloumn
+
+day 14 : today i understood the real meaning of handcap column as well as tranformed that feature into binary column
+in order to avoid future problem like adding up noise while model training
+
+day 15 : today i implemented quality check on date coloms of schedule and appointment verified that no date of appointment
+come before schedule and also created a feature of waiting days which is related to no show prediction directly.
+
+day 16 : today i completed data quality checks notebook and validate that all the features are as expected and wrote a
+clean summary of that.
+
+day 17 : today i started the phase 3 which is of eda i wrote objectives and also saved the clear and cleaned csv
+file from the 2nd notebook into processed folder and then imported it in eda and also observed the no show feature
+behavior.
+
+day 18 : today i visualized the no show variable distribution using bar plot and also used xticks method by myself.
+
+day 19 : today i observed relation between waiting days and no show and i understood it well and also built a clean
+bianry visualiztion .
+
+day 20 : today i visualized the no show and sms recieved features in order to observe their relationship and how much 
+influence of sms recieved or not is on appointment attendance.
+
+day 21 : today i observed and calculated the relation between medical history of patients and no show feature using
+for loop i come to know new methods of representing and also cleared the doubt of normalize is equal to index.
+
+day 22 : today i completed the phase 3 officialy and wrote all the markdwons which were neccessary.
+
+day 23 : today i started the phase 4 of feature engineering and did good amount of work brainstorm in order to drop
+columns and apply encoding to categorical feature
+
+day 24 : today i applied train test split imported model trained and tested it and alos evaluated on the basis of 3 metrics
+which are accuracy score, confusion matrix, classification report and understand importance of imbalanced class weight
+in model prediction and evaulation.
+
+day 25 : today i came across concept of roc and auc and understood that model predicts one category as 60% this and 40that
+and according to threshold it jusdge the outcome auc helps in improving model performance in this subject by helping to
+evaluate on diffrent thresholds.
+
+day 26 : today i introduced random forest model and compared it with logistic one and also improves metrics by adjusting 
+threshold and completed the phase 4.
+
+day 27 : today i started new phase of error analysis and also learned and observed the importance of notebook linkage
+which is not possible as we have to save the latest dataset of the pervious notebook and load that in next one thats how
+things work.
+
+day 28 : today i cleanly completed the markdwons for the every cell in notebook 5 and also extracted false positives 
+false positives and true positives also observed the patterens between them
+
+day 29 : today i added insights of error analysis and final conclusion and next i will add up visualizations for
+error analysis then i will go to final phase of my project
+
+day 30 : today i completed my project work now only readme making finalizing polishing and uploading is left, i ended
+with 3 comparision visualizations and also giving final visual observations.

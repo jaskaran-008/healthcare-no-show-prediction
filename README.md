@@ -89,7 +89,7 @@ healthcare-no-show-prediction/
 - Patients with **longer waiting times** are more likely to miss appointments  
 - The model performs better for **younger patients**  
 - **Older patients are often misclassified**  
-- **SMS reminders alone are not sufficient** to prevent no-shows  
+- **SMS reminders showed no clear reduction in no-shows.** 
 
 ---
 
@@ -124,7 +124,7 @@ The model shows moderate predictive performance but provides meaningful behavior
 
 ✅ Completed  
 ✅ Structured and documented  
-✅ Ready for interview discussion  
+ 
 
 ---
 
